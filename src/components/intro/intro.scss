@@ -4,7 +4,7 @@
   background-color: white;
   display: flex;
 
-  @include mobile{
+  @include mobile {
     flex-direction: column;
     align-items: center;
   }
@@ -12,25 +12,34 @@
   .left {
     flex: 0.5;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 
     .imgContainer {
       width: 700px;
       height: 700px;
-      background-color: crimson;
+      background-color: $secondaryColor;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
+      margin-inline: auto;
       float: right;
+      cursor: pointer;
+      transition: transform 500ms linear;
 
-      @include mobile{
-        align-items: flex-start;
+      &:hover {
+        transform: scale(1.2);
+      }
+      @include mobile {
+        align-items: center;
       }
 
       img {
-        height: 90%;
+        height: 100%;
+        object-fit: cover;
 
-        @include mobile{
+        @include mobile {
           height: 50%;
         }
       }
@@ -48,7 +57,7 @@
       flex-direction: column;
       justify-content: center;
 
-      @include mobile{
+      @include mobile {
         padding-left: 0;
         align-items: center;
       }
@@ -56,24 +65,31 @@
       h1 {
         font-size: 60px;
         margin: 10px 0;
+        color: $mainColor;
 
-        @include mobile{
+        @include mobile {
+          text-align: center;
           font-size: 40px;
         }
       }
       h2 {
         font-size: 35px;
+        color: $mainColor;
       }
       h3 {
         font-size: 30px;
 
-        @include mobile{
+        @include mobile {
           font-size: 20px;
         }
 
         span {
           font-size: inherit;
-          color: crimson;
+          // color: #ffc85e;
+          // background-image: linear-gradient(to right top, #ffc85e, #fca55a, #f1845d, #de6764, #c34e6a);
+          background: -webkit-linear-gradient($mainColor, $secondaryColor);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
 
         .ityped-cursor {
@@ -81,22 +97,47 @@
         }
 
         @keyframes blink {
-            50%{
-                opacity: 1;
-            }
-            100%{
-                opacity: 0;
-            }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      }
+
+      .description {
+        width: 85%;
+        margin-top: 4rem;
+
+        img {
+          max-width: 100%;
+        }
+        @include mobile {
+          margin-top: 0rem;
         }
       }
     }
-    a {
+
+    .contact-us-link {
+      text-align: right;
+      width: 77%;
+
+      a {
+        text-decoration: none;
+        color: $mainColor;
+        font-weight: 700;
+        font-size: 1.7rem;
+      }
+    }
+
+    .move-down {
       position: absolute;
       bottom: 10px;
       left: 40%;
 
       img {
-        width: 30px;
+        width: 6rem;
         animation: arrowBlink 2s infinite;
       }
 

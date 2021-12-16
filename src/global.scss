@@ -1,9 +1,31 @@
-$mainColor: #15023a;
+$mainColor: #c34e6a;
+$secondaryColor: #ffc85e;
 
 $width: 768px;
+$extraLargeWidth: 1025px;
 
 @mixin mobile {
-    @media (max-width: #{$width}){
-        @content
+    @media (max-width: #{$width}) {
+        @content;
+    }
+}
+@mixin extraLarge {
+    @media (min-width: #{$extraLargeWidth}) {
+        @content;
+    }
+}
+@mixin scroll-bar() {
+    scrollbar-width: thin;
+    scrollbar-color: $mainColor white;
+    &::-webkit-scrollbar {
+        width: 11px;
+    }
+    &::-webkit-scrollbar-track {
+        background: white;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $mainColor;
+        border-radius: 6px;
+        border: 3px solid white;
     }
 }

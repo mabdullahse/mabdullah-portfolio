@@ -1,6 +1,7 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
+import SocialIcons from "./../contact/SocialIcons";
 
 export default function Intro() {
   const textRef = useRef();
@@ -8,9 +9,14 @@ export default function Intro() {
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
-      backDelay: 1500,
-      backSpeed:60,
-      strings: ["Developer", "Designer", "Content Creator"],
+      backDelay: 200,
+      backSpeed: 60,
+      strings: [
+        "Angular Developer",
+        "ReactJS Developer",
+        "NodeJS Developer",
+        "AWS Certified Cloud Practitioner",
+      ],
     });
   }, []);
 
@@ -23,13 +29,23 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi There, I'm</h2>
-          <h1>Safak Kocaoglu</h1>
+          <h2>Hi there, I'm</h2>
+          <h1>Muhammad Abdullah</h1>
           <h3>
-            Freelance <span ref={textRef}></span>
+            <span ref={textRef}></span>
           </h3>
+          <div className="description">
+            <img
+              src="assets/images/intro/intro-description.svg"
+              alt="M Abdullah intro"
+            />
+          </div>
+
+          <div className="contact-us-link">
+            <a href="#contact">Contact me</a>
+          </div>
         </div>
-        <a href="#portfolio">
+        <a className="move-down" href="#portfolio">
           <img src="assets/down.png" alt="" />
         </a>
       </div>

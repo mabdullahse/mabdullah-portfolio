@@ -1,0 +1,25 @@
+@import "../../global.scss";
+
+.social {
+    display: flex;
+    grid-gap: 2rem;
+    gap: 2rem;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img {
+        max-width: 60px;
+        cursor: pointer;
+        @include mobile {
+            max-width: 50px;
+        }
+    }
+
+    @include mobile {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

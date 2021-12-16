@@ -1,0 +1,34 @@
+@import "../../global.scss";
+
+.secondaryColor {
+    // background-color: $secondaryColor;
+}
+
+#timeline {
+    background-color: $secondaryColor;
+    @include scroll-bar();
+    &:first-child {
+        padding-block: 5rem;
+    }
+}
+.timeline {
+    .date-container {
+        height: 27px;
+        .date {
+            background-color: $mainColor !important;
+        }
+    }
+
+    .timelineTrack {
+        background-color: $mainColor !important;
+    }
+    img {
+        max-height: 200px !important;
+        max-width: 200px !important;
+        margin-inline: auto;
+    }
+
+    .url-button {
+        background-color: $mainColor !important;
+    }
+}

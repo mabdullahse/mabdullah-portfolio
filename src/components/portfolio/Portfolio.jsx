@@ -3,10 +3,10 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
   featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
+  angularPortfolio,
+  reactJsPortfolio,
+  figmaPortfolio,
+  nodejsPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -18,20 +18,20 @@ export default function Portfolio() {
       title: "Featured",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "angular",
+      title: "Angular Apps",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "reactJs",
+      title: "React.JS App",
     },
     {
-      id: "design",
-      title: "Design",
+      id: "figma",
+      title: "Figma Design",
     },
     {
-      id: "content",
-      title: "Content",
+      id: "nodejs",
+      title: "Node.JS",
     },
   ];
 
@@ -40,17 +40,17 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      case "web":
-        setData(webPortfolio);
+      case "angular":
+        setData(angularPortfolio);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
+      case "reactJs":
+        setData(reactJsPortfolio);
         break;
-      case "design":
-        setData(designPortfolio);
+      case "figma":
+        setData(figmaPortfolio);
         break;
-      case "content":
-        setData(contentPortfolio);
+      case "nodejs":
+        setData(nodejsPortfolio);
         break;
       default:
         setData(featuredPortfolio);
@@ -67,18 +67,23 @@ export default function Portfolio() {
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
+            key={item.id}
           />
         ))}
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item">
-            <img
-              src={d.img}
-              alt=""
-            />
-            <h3>{d.title}</h3>
-          </div>
+          <a
+            target="_blank"
+            href={d.link}
+            rel="noreferrer"
+            key={d.id + d.title}
+          >
+            <div className="item">
+              <img src={d.img} alt="" />
+              <h3>{d.title}</h3>
+            </div>
+          </a>
         ))}
       </div>
     </div>

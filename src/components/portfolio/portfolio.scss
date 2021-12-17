@@ -12,8 +12,8 @@
     min-height: 3.8rem;
 
     @include mobile {
-      font-size: 20px;
-      min-height: 30px;
+      font-size: 34px;
+      min-height: 55px;
     }
   }
 
@@ -23,12 +23,14 @@
     list-style: none;
     display: flex;
     min-height: 2rem;
+    
+    @include scroll-bar();
 
     @include mobile {
-      margin: 10px 0;
+      margin: 0;
       flex-wrap: nowrap;
       overflow-x: scroll;
-      margin: auto;
+      min-height: 4rem;
     }
   }
 

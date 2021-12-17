@@ -23,9 +23,10 @@ export default function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="left">
-        <div className="imgContainer">
-          <img src="assets/mabdullah.png" alt="" />
-        </div>
+        <img
+          src="assets/images/intro/mabdullah.png"
+          alt="mabdullahse profile pic"
+        />
       </div>
       <div className="right">
         <div className="wrapper">

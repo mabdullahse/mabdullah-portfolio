@@ -39,5 +39,8 @@
         transform: rotate(270deg);
       }
     }
+    @media (max-width: 400px) {
+      width: 100%;
+    }
   }
 }

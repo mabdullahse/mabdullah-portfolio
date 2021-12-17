@@ -15,6 +15,7 @@ export default function Contact() {
         <h2>Reach out Directly.</h2>
 
         <SocialIcons />
+        <h2>Ciao........</h2>
       </div>
       <div className="right">
         <img src="assets/images/contact/contact-us.svg" alt="contact-us" />

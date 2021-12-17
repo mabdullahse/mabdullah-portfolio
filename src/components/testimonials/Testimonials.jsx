@@ -29,7 +29,7 @@ export default function Testimonials() {
       img: "/assets/images/profile/push.jpg",
       icon: "assets/linkedin.png",
       link: "https://www.linkedin.com/in/pushpanathank/",
-      desc: "There is no better colleague than Muhammad Abdullah. He is one of the most dedicated professionals I’ve worked with and is willing to put that extra help whenever you need it. His expertise as a developer is considerable. His contribution is valuable to the side, and I highly recommend Muhammad Abdullah and would love to work with his again.",
+      desc: "There is no better colleague than Muhammad Abdullah. He is one of the most dedicated professionals I’ve worked with and is willing to put that extra help whenever you need it. His expertise as a developer is considerable. I highly recommend Muhammad Abdullah and would love to work with his again.",
     },
   ];
   return (

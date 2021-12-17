@@ -26,7 +26,7 @@ export const featuredPortfolio = [
   {
     id: 6,
     title: "Burger App UI Design",
-    img: "/assets/images/figma/burgerfood.svg",
+    img: "/assets/images/figma/burgerfood.png",
     link: "https://mabdullahse.github.io/pinterest/",
   },
 
@@ -102,7 +102,7 @@ export const figmaPortfolio = [
   {
     id: 2,
     title: "Burger App UI Design",
-    img: "/assets/images/figma/burgerfood.svg",
+    img: "/assets/images/figma/burgerfood.png",
     link: "https://mabdullahse.github.io/pinterest/",
   },
   {
@@ -114,7 +114,7 @@ export const figmaPortfolio = [
   {
     id: 4,
     title: "Food App UI Design",
-    img: "/assets/images/figma/food-app-design.svg",
+    img: "/assets/images/figma/food-app-design.png",
     link: "https://mabdullahse.github.io/pinterest/",
   },
   {
@@ -126,7 +126,7 @@ export const figmaPortfolio = [
   {
     id: 6,
     title: "Fashion App",
-    img: "/assets/images/figma/fashion.svg",
+    img: "/assets/images/figma/fashion.png",
     link: "https://mabdullahse.github.io/pinterest/",
   },
 ];

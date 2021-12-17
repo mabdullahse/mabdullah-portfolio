@@ -24,7 +24,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="" />
+          <img src="assets/mabdullah.png" alt="" />
         </div>
       </div>
       <div className="right">
@@ -42,7 +42,7 @@ export default function Intro() {
           </div>
 
           <div className="contact-us-link">
-            <a href="#contact">Contact me</a>
+            <a href="#contact">Let's Chat!</a>
           </div>
         </div>
         <a className="move-down" href="#portfolio">

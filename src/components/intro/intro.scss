@@ -148,5 +148,29 @@
         display: none;
       }
     }
+
+    @media (min-width: 560px) and (max-width: 998px) {
+      .wrapper {
+        h2 {
+          min-height: 37px;
+        }
+
+        h1 {
+          font-size: 25px;
+          min-height: 44px;
+        }
+        h3 {
+          min-height: 32px;
+        }
+      }
+      .contact-us-link {
+        position: absolute;
+        bottom: 22px;
+        a {
+          font-weight: 400;
+          font-size: 1.1rem;
+        }
+      }
+    }
   }
 }

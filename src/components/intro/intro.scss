@@ -110,7 +110,8 @@
     .contact-us-link {
       text-align: right;
       width: 77%;
-
+      position: absolute;
+      bottom: 22px;
       a {
         text-decoration: none;
         color: $mainColor;
@@ -132,7 +133,7 @@
       left: 40%;
 
       img {
-        width: 6rem;
+        width: 4rem;
         animation: arrowBlink 2s infinite;
         @include mobile {
           width: 3rem;
@@ -164,8 +165,6 @@
         }
       }
       .contact-us-link {
-        position: absolute;
-        bottom: 22px;
         a {
           font-weight: 400;
           font-size: 1.1rem;

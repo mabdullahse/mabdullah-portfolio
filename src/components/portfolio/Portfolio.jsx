@@ -74,7 +74,7 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <a
-            target="_blank"
+            {...(d.hasLink && 'target = "_blank"')}
             href={d.link}
             rel="noreferrer"
             key={d.id + d.title}

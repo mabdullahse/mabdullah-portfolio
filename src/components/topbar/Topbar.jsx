@@ -9,14 +9,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <a href="#intro" className="logo">
             mabdullahse.
           </a>
-          <div className="itemContainer">
-            <Person className="icon" />
-            <span>+92 3054314377</span>
-          </div>
-          <div className="itemContainer">
-            <Mail className="icon" />
-            <span>mabdullah.se@gmail.com</span>
-          </div>
+          {/* - Todo link-  */}
         </div>
         <div className="right">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>

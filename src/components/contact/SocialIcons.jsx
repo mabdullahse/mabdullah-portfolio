@@ -33,13 +33,6 @@ function SocialIcons() {
       >
         <img src="assets/images/contact/medium.svg" alt="Medium Logo" />
       </a>
-      <a
-        target="_blank"
-        href="https://wa.me/923054314377?text=Hey M Abdullah! Let's have a quick chat'"
-        rel="noreferrer"
-      >
-        <img src="assets/images/contact/whatsapp.svg" alt="whatsapp" />
-      </a>
     </div>
   );
 }

@@ -10,10 +10,20 @@ Who I'm?
 🏆 85% marks achieved in AWS Certified Cloud Practitioner.
 
 Top tech Giants:
-Associated with market leaders like Keeptruckin, ConnectWise, LLC, VentureDive etc.
+I'm associated with market leaders like WeConnect Search PTE. LTD. Kinesso, Keeptruckin, ConnectWise, LLC, VentureDive etc
 
 Let's start building your amazing project today 🚀
 whatsapp: +923054314377
 email:    mabdullah.se@gmail.com
+
+
+Payoneer
+This website is owned and operated by Muhammad Abdullah
+
+My Payoneer email is mabdullah.se@gmail.com and phone number is +92 3054314377
+
+My Address is: Street No 3 Al badar colony cantt road Mailsi 61200 Pakistan
+
+
 
 ![Screenshot](mabdullahse-portfolio.png)

@@ -12,6 +12,11 @@ import Achievements from "./components/achievements/achievements";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const hash = window.location.hash;
+  if (!hash) {
+    // Redirect to #contact
+    window.location.href = "#contact";
+  }
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />

@@ -24,6 +24,7 @@ export default function Contact() {
             <b>Street No 3 Al badar colony cantt road Mailsi Pakistan </b> (ZIP
             code: 61200){" "}
           </p>
+          <p>Working with WeConnect Search PTE. LTD.</p>
         </div>
         <h2>Ciao........</h2>
       </div>

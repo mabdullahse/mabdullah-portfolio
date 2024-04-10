@@ -7,7 +7,7 @@ function SocialIcons() {
     <div className="social">
       <a
         target="_blank"
-        href="https://stackoverflow.com/users/9572033/mabdullahse"
+        href="https://stackoverflow.com/users/9572033/muhammad-abdullah?tab=profile"
         rel="noreferrer"
       >
         <img

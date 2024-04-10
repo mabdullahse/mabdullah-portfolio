@@ -1,7 +1,6 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import SocialIcons from "./../contact/SocialIcons";
 
 export default function Intro() {
   const textRef = useRef();
